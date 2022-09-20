@@ -2,3 +2,31 @@ v_sal constant number:= 20
 v_name varchar2(100) not null
 
 q'(father's day)'-- alternative quote operator
+
+
+LOB(Large Object) used to store large amount of data--- 4 GB
+LOB types--
+CLOB- Character
+BLOB-- Binary
+BFILE-- Binary File
+NCLOB-- National Language Character
+
+
+Bind variables-- also called host variables
+
+&-- substitution variable
+'&name'-- character based value
+
+
+group functions and decode can not be used with PLSQL objects.
+
+
+Sequence--
+create sequence
+increment by
+start with
+nomaxvalue
+
+
+outer block cannot have access to refer variables in inner block
+inner block has access to refer variable in outer block
