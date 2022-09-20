@@ -1,0 +1,4 @@
+v_sal constant number:= 20
+v_name varchar2(100) not null
+
+q'(father's day)'-- alternative quote operator
