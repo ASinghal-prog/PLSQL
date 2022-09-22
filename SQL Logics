@@ -1,0 +1,6 @@
+(select trunc(last_day(add_months(sysdate, -level)) +1, 'MM') mon
+from dual
+connect by level <= 6)----- USED TO PRINT ALL MONTHS, from sysdate
+
+
+If we want all months data, even if any particular month has 0 value in it.
