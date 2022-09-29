@@ -4,3 +4,7 @@ connect by level <= 6)----- USED TO PRINT ALL MONTHS, from sysdate
 
 
 If we want all months data, even if any particular month has 0 value in it.
+
+
+to add days to a date of type--- MM/DD/YYYY HH:MI:SS--
+do date + interval '1day'
