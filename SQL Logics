@@ -8,3 +8,8 @@ If we want all months data, even if any particular month has 0 value in it.
 
 to add days to a date of type--- MM/DD/YYYY HH:MI:SS--
 do date + interval '1day'
+
+
+
+regexp_like function-- used to retrive records based on pattern matching--
+where regexp_like(full_name,'\w+ \w+ \w+')--- retrieve names having middle name as well
