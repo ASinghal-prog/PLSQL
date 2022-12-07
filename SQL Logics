@@ -13,3 +13,11 @@ do date + interval '1day'
 
 regexp_like function-- used to retrive records based on pattern matching--
 where regexp_like(full_name,'\w+ \w+ \w+')--- retrieve names having middle name as well
+
+
+regexp_instr function--
+where regexp_instr(name,'\(.+\)')--- names containing "(" and ")".
+
+
+regexp_substr---
+regexp_substr(name,'^A.+a$')---- name starts with a and end with a.
